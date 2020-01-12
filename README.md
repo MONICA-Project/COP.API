@@ -3,15 +3,17 @@
 
 COP.API
 The COP  API is intended for components delivering data and services to the  staff at the event. The main users of the API are the Common Operational Picture UI and the different apps that are part of MONICA.
+
 The COP professional API is based on the following technologies:
-•	MQTT interface for receiving messages for updating COP status
-•	Odata-based API for retrieving resources from the IoT DB
-•	Integrates SQL database with an OGC Sensorthings database for storage and management of time series of observations.
+*	MQTT interface for receiving messages for updating COP status
+*	Odata-based API for retrieving resources from the IoT DB
+*	Integrates SQL database with an OGC Sensorthings database for storage and management of time series of observations.
 The COP professional API provides the following main functionalities:
-•	Incident classification and management
-•	Division of a geographical area into zones and subzones
-•	Mapping of incidents, sensors, facilities and people/groups/crowds to zones
-•	Fast retrieval of current status of the situational objects of interest
+*	Incident classification and management
+*	Division of a geographical area into zones and subzones
+*	Mapping of incidents, sensors, facilities and people/groups/crowds to zones
+*	Fast retrieval of current status of the situational objects of interest
+
 The COP API as maintained in Swagger and implemented in ASP.NET Core 2.1.
 
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
