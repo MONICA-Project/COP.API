@@ -8,6 +8,7 @@ The COP professional API is based on the following technologies:
 *	MQTT interface for receiving messages for updating COP status
 *	Odata-based API for retrieving resources from the IoT DB
 *	Integrates SQL database with an OGC Sensorthings database for storage and management of time series of observations.
+
 The COP professional API provides the following main functionalities:
 *	Incident classification and management
 *	Division of a geographical area into zones and subzones
@@ -19,12 +20,14 @@ The COP API as maintained in Swagger and implemented in ASP.NET Core 2.1.
 <!-- A teaser figure may be added here. It is best to keep the figure small (<500KB) and in the same repo -->
 
 ## Getting Started
-<!-- Instruction to make the project up and running. -->
+The COP.API is developed in Visual Studio using Dotnet Core 2.1.
 
-The project documentation is available on the [Wiki](https://github.com/MONICA-Project/template/wiki).
+The easiest way to build it is to clone the repository using Visual Studio 2017 or higher and then build the software.
+
+Ready made docker images are available here [here](https://hub.docker.com/repository/docker/monicaproject/copapi/general)
 
 ## Deployment
-<!-- Deployment/Installation instructions. If this is software library, change this section to "Usage" and give usage examples -->
+For deployment the COP.API relies on a Postgres database for internal use as well as a connection to a GOST database.
 
 ### Docker
 To run the latest version of foobar:
@@ -64,10 +67,3 @@ Please fork, make your changes, and submit a pull request. For major changes, pl
 ![MONICA](https://github.com/MONICA-Project/template/raw/master/monica.png)  
 This work is supported by the European Commission through the [MONICA H2020 PROJECT](https://www.monica-project.eu) under grant agreement No 732350.
 
-> # Notes
->
-> * The above templace is adapted from [[1](https://github.com/cpswarm/template), [2](https://www.makeareadme.com), [3](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), [4](https://github.com/dbader/readme-template)].
-> * Versioning: Use [SemVer](http://semver.org/) and tag the repository with full version string. E.g. `v1.0.0`
-> * License: Provide a LICENSE file at the top level of the source tree. You can use Github to [add a license](https://help.github.com/en/articles/adding-a-license-to-a-repository). This template repository has an [Apache 2.0](LICENSE) file.
->
-> *Remove this section from the actual readme.*
