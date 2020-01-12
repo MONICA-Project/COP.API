@@ -16,7 +16,7 @@
         "MEDIA_PATH": "wwwroot/ora_shared/",
         "CONNECTION_STR": "Host=mpclfdbpql01.monica-cloud.eu;Database=monica_fdl2019;Username=monica_cnet;Password=Bohm1Shu;Port=9999",
         "GOST_PREFIX": "GOST_WDOM",
-        "TEST_TOKEN": "6e1c06ad-0be8-42bf-8033-93fada21d3bf",
+        "TEST_TOKEN": "6ffdcacb-c485-499c-bce9-23f76d06aa36",
         "USE_GOSTOBS": "true",
         "GOST_SERVER": "http://monappdwp3.monica-cloud.eu:8109/v1.0/",
         "URL_PREFIX": "WDOM",
