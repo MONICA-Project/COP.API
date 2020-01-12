@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  io.swagger:
+    image: copapi
+    build:
+      context: .
+      dockerfile: src/COP.API/Dockerfile
