@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.SignalR;
 
 namespace COP.API.EventHubs
 {
-    public class WearableUpdate : Hub
+    public class COPUpdate : Hub
 
     {
         public async Task peoplewithwearablesUpdate(string message)

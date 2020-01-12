@@ -119,7 +119,7 @@ namespace COP.API
                 .UseStaticFiles()
                 .UseSignalR(route =>
                 {
-                    route.MapHub<EventHubs.WearableUpdate>("/signalR/wearableupdate", options => {
+                    route.MapHub<EventHubs.COPUpdate>("/signalR/COPUpdate", options => {
                         // Set to 0 for no limit, or to some non-zero value (in bytes) to set a different buffer limit
                         options.TransportMaxBufferSize = 100000;
                     });

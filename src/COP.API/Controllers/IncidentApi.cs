@@ -33,9 +33,9 @@ namespace COP.API.Controllers
     /// </summary>
     public class IncidentApiController : Controller
     {
-        private readonly IHubContext<EventHubs.WearableUpdate> _hubContext;
+        private readonly IHubContext<EventHubs.COPUpdate> _hubContext;
 
-        public IncidentApiController(IHubContext<EventHubs.WearableUpdate> hubContext)
+        public IncidentApiController(IHubContext<EventHubs.COPUpdate> hubContext)
         {
             _hubContext = hubContext;
         }

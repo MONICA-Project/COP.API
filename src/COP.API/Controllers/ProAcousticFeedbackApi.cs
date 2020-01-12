@@ -35,9 +35,9 @@ namespace COP.API.Controllers
     /// </summary>
     public class ProAcousticFeedbackApiController : Controller
     {
-        private readonly IHubContext<EventHubs.WearableUpdate> _hubContext;
+        private readonly IHubContext<EventHubs.COPUpdate> _hubContext;
 
-        public ProAcousticFeedbackApiController(IHubContext<EventHubs.WearableUpdate> hubContext)
+        public ProAcousticFeedbackApiController(IHubContext<EventHubs.COPUpdate> hubContext)
         {
             _hubContext = hubContext;
         }

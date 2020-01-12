@@ -7,9 +7,9 @@ namespace COP.API.EventHubs
 {
     public class HeatMapUpdater
     {
-        private readonly IHubContext<EventHubs.WearableUpdate> _hubContext;
+        private readonly IHubContext<EventHubs.COPUpdate> _hubContext;
 
-        public HeatMapUpdater(IHubContext<EventHubs.WearableUpdate> hubContext)
+        public HeatMapUpdater(IHubContext<EventHubs.COPUpdate> hubContext)
         {
             _hubContext = hubContext;
         }

@@ -32,9 +32,9 @@ namespace COP.API.Controllers
     /// </summary>
     public class XHUBMessageApiController : Controller
     {
-        private readonly IHubContext<EventHubs.WearableUpdate> _hubContext;
+        private readonly IHubContext<EventHubs.COPUpdate> _hubContext;
 
-        public XHUBMessageApiController(IHubContext<EventHubs.WearableUpdate> hubContext)
+        public XHUBMessageApiController(IHubContext<EventHubs.COPUpdate> hubContext)
         {
             _hubContext = hubContext;
         }
