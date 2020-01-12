@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5FBCB91D-4782-4F3D-A899-4339B2046EDC}"
+	ProjectSection(SolutionItems) = preProject
+		..\template\LICENSE = ..\template\LICENSE
+		..\template\monica.png = ..\template\monica.png
+		..\template\README.md = ..\template\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COP.API", "src\COP.API\COP.API.csproj", "{ED99C58F-D5CF-44DD-A866-6F5DDFF9AFFA}"
 EndProject
