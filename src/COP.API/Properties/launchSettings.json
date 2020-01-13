@@ -14,8 +14,8 @@
       "launchUrl": "swagger/",
       "environmentVariables": {
         "MEDIA_PATH": "wwwroot/ora_shared/",
-        "CONNECTION_STR": "Host=mpclfdbpql01.monica-cloud.eu;Database=monica_fdl2019;Username=monica_cnet;Password=Bohm1Shu;Port=9999",
-        "GOST_PREFIX": "GOST_WDOM",
+        "CONNECTION_STR": "Host=127.0.0.1;Database=monica_pm2019;Username=postgres;Password=docker;Port=9999",
+        "GOST_PREFIX": "GOST",
         "TEST_TOKEN": "6ffdcacb-c485-499c-bce9-23f76d06aa36",
         "USE_GOSTOBS": "true",
         "GOST_SERVER": "http://monappdwp3.monica-cloud.eu:8109/v1.0/",

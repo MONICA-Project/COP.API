@@ -65,11 +65,11 @@ namespace COP.API
             services
                 .AddSwaggerGen(c =>
                 {
-                    c.SwaggerDoc("0.3.0", new Info
+                    c.SwaggerDoc("1.0.0", new Info
                     {
-                        Version = "0.3.0",
+                        Version = "1.0.0",
                         Title = "MONICA COP API",
-                        Description = "MONICA COP API (ASP.NET Core 2.0)",
+                        Description = "MONICA COP API (ASP.NET Core 2.1)",
                         Contact = new Contact()
                         {
                            Name = "Swagger Codegen Contributors",
@@ -129,9 +129,9 @@ namespace COP.API
                 {
                     //TODO: Either use the SwaggerGen generated Swagger contract (generated from C# classes)
                     if (ASPNETCORE_ENVIRONMENT == "Development")
-                        c.SwaggerEndpoint("/swagger/0.3.0/swagger.json", "MONICA COP API");
+                        c.SwaggerEndpoint("/swagger/1.0.0/swagger.json", "MONICA COP API");
                     else
-                        c.SwaggerEndpoint(settings.urlPrefix + "/cop/api/swagger/0.3.0/swagger.json", "MONICA COP API");
+                        c.SwaggerEndpoint(settings.urlPrefix + "/cop/api/swagger1.0.0/swagger.json", "MONICA COP API");
                    //
 
                     //TODO: Or alternatively use the original Swagger contract that's included in the static files
