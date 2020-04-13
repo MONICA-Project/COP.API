@@ -12,8 +12,6 @@ The COP.API is connected to the following components in MONICA:
 * [OGC Discovery Manager](https://github.com/MONICA-Project/COPUpdater) - Is the link between the COP and the IoT DB, forwarding newly discovered devices in the IoT DB to the COP.DB.
 * EventHub provides push functionality to apps and COP-UI. This component is in fact integrated in the COP.API module but as a separate component.
 
-So the COP in MONICA could be viewed as the set of components.
-
 The COP API is based on the following technologies:
 *	MQTT interface for receiving messages for updating COP status
 *	Odata-based API for retrieving resources from the IoT DB
