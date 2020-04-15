@@ -69,12 +69,13 @@ NB! The Prerequisites must exist and be started when starting the COP.API
 
 ## Development
 To start development it is enough to clone the repository and then build it either using Visual Studio or Dotnet Core SDK to build and run the API.
-It is recomended to use on of the complete demonstration environments to have some testing data.
+It is recomended to use one of the Docker Compose Packages with complete demonstration environments mentioned above to have some testing data and to have the complete COP environemnt available.
 
 The code for the COP.API is based on ASP.NET Core framework and for COP.DB access Microsoft.EntityFrameworkCore is used.
 
 
 ### Prerequisite
+Either one of the Docker Compose Packages with complete demonstration environments, or manually install the following components:
 * GOST (IoT DB). Installation instructions are available [here](https://www.gostserver.xyz/)
 * PostgreSQL. Installation instructions are available [here](https://www.postgresql.org/)
     - COP DB needs to be loaded in the database, instructions [here](https://github.com/MONICA-Project/COP.DB)
