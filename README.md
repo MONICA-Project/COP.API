@@ -34,11 +34,11 @@ The COP.API is developed in Visual Studio using Dotnet Core 2.1.
 The easiest way to build it is to clone the repository using Visual Studio 2017 or higher and then build the software or to use the DotNet Core 2.1 SDK.
 
 There are a number of ready made Docker Compose Packages demonstration environments that include the COP.API and all dependencies and provides an easy way of testing the COP.API. In addition there are a number of tutorials for the API.
-### Docker Compose with complete demonstration environments including the COP.API
-* [Demonstration of staff management with LoRa based locators]( https://github.com/MONICA-Project/staff-management-demo)
-* [Demonstration of crowd management using smart wristbands](https://github.com/MONICA-Project/DockerGlobalWristbandSimulation)
-* [Demonstration of Sound Monitoring an event using Sound Level Meters](https://github.com/MONICA-Project/DockerSoundDemo)
-* [Environment Sensors for managing weather related incidents Demo](https://github.com/MONICA-Project/DockerEnvironmentSensorDemo)
+### Docker Compose Packages with complete demonstration environments including the COP.API
+* [Staff management package]( https://github.com/MONICA-Project/staff-management-demo)
+* [Crowd management using smart wristbands and cameras](https://github.com/MONICA-Project/DockerGlobalWristbandSimulation)
+* [Sound Monitoring an event using Sound Level Meters](https://github.com/MONICA-Project/DockerSoundDemo))
+* [Managing weather related incidents Demo](https://github.com/MONICA-Project/DockerEnvironmentSensorDemo)
 ### Tutorials
 * [COP API Tutorial creating POIs and Zones](https://monica-project.github.io/sections/cop-api-tutorial.html)
 * [COP API Tutorial for retrieving sensordata](https://monica-project.github.io/sections/cop-api-tutorial%20sensordata.html)
